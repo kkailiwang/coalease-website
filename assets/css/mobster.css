@@ -7,7 +7,7 @@
 
 :root {
   --primary: #3D58F3;
-  --secondary: #A52EFF;
+  --secondary: #243BB1;
   --success: #0ABF9E;
   --warning: #E89E09;
   --info: #4699F8;
@@ -30,11 +30,11 @@ body {
 }
 
 a {
-  color: #526bf5;
+  color: #b5bef7;
 }
 
 a:hover {
-  color: #7b50e6;
+  color: #889bfd;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -134,7 +134,7 @@ hr {
 }
 
 .bg-secondary {
-  background-color: #A52EFF !important;
+  background-color: #243BB1 !important;
 }
 
 .bg-success {
@@ -179,7 +179,7 @@ hr {
 }
 
 .fg-secondary {
-  color: #A52EFF !important;
+  color: #243BB1 !important;
 }
 
 .fg-success {
@@ -1418,33 +1418,33 @@ hr {
 
 .btn-secondary {
   color: #ffffff;
-  background-color: #A52EFF;
+  background-color: #2347ff;
   border-color: transparent !important;
 }
 
 .btn-secondary:hover {
   color: #ffffff;
-  background-color: #9305ff;
-  box-shadow: 0 4px 12px rgba(165, 46, 255, 0.3);
+  background-color: #243BB1;
+  box-shadow: 0 4px 12px #1f2752;
 }
 
 .btn-secondary:focus {
   color: #ffffff;
-  background-color: #9305ff;
+  background-color: #2347ff;
   box-shadow: none;
 }
 
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff;
-  background-color: #b048ff;
+  background-color: #4b69ff;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-secondary.dropdown-toggle {
   color: #ffffff;
-  background-color: #A52EFF;
+  background-color: #3b4a97;
   box-shadow: none;
 }
 
@@ -1722,14 +1722,14 @@ hr {
 }
 
 .btn-outline-secondary {
-  color: #A52EFF;
-  border-color: #A52EFF;
+  color: #243BB1;
+  border-color: #243BB1;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #A52EFF;
-  border-color: #A52EFF;
+  background-color: #243BB1;
+  border-color: #243BB1;
   box-shadow: 0 4px 12px rgba(164, 46, 255, 0.3);
 }
 
@@ -1738,15 +1738,15 @@ hr {
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #A52EFF;
+  color: #243BB1;
   background-color: transparent;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #A52EFF;
-  border-color: #A52EFF;
+  background-color: #243BB1;
+  border-color: #243BB1;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
@@ -1957,25 +1957,25 @@ hr {
 
 .btn-gradient {
   color: #fff;
-  background: linear-gradient(45deg, var(--primary), #9548F9);
+  background: linear-gradient(45deg, var(--primary), #3f55c0);
   border: none;
 }
 
 .btn-gradient:hover {
   color: #fff;
-  background: linear-gradient(45deg, var(--primary), #9548F9);
+  background: linear-gradient(45deg, var(--primary), #3f55c0);
   box-shadow: 0 4px 12px rgba(56, 51, 64, 0.3);
 }
 
 .btn-gradient:focus, .btn-gradient.focus {
   color: #fff;
-  background: linear-gradient(45deg, var(--primary), #9548F9);
+  background: linear-gradient(45deg, var(--primary), #3f55c0);
   box-shadow: none;
 }
 
 .btn-gradient.disabled, .btn-gradient:disabled {
   color: #fff;
-  background: linear-gradient(45deg, var(--primary), #9548F9);
+  background: linear-gradient(45deg, var(--primary), #3f55c0);
 }
 
 
@@ -2286,7 +2286,7 @@ html {
   height: 20px;
   line-height: 20px;
   border-radius: 50%;
-  background-color: #9548F9;
+  background-color: #3f55c0;
   color: #fff;
   font-size: 12px;
 }
@@ -2435,7 +2435,7 @@ html {
 }
 
 .active .pricing-header h1 {
-  color: #602FDA;
+  color: #2e4097;
 }
 
 .pricing-item:not(.active) .theme-list .list-item::before {
@@ -2569,7 +2569,7 @@ html {
   width: 68px;
   height: 65px;
   text-align: center;
-  background: linear-gradient(to bottom right, #3D58F3, #9548F9);
+  background: linear-gradient(to bottom right, #3D58F3, #1d2968);
   color: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(95, 90, 104, 0.342);
@@ -2623,7 +2623,7 @@ html {
   line-height: 22px;
   text-align: center;
   font-size: 14px;
-  background: linear-gradient(to bottom right, #3D58F3, #9548F9);
+  background: linear-gradient(to bottom right, #3D58F3, #1d2968;
   color: #fff;
   border-radius: 50%;
 }
@@ -2676,7 +2676,7 @@ html {
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #f5f4fa;
-  border-bottom: 3px solid #7b50e6;
+  border-bottom: 3px solid #475ab8;
   box-shadow: 0 2px 3px rgba(51, 47, 58, 0.15);
   z-index: 3;
 }
